@@ -4,6 +4,7 @@ include 'functions.php';
  ?>
  <html>
  <head>
+ <title> V5 </title>
  <meta charset="utf-8">
  <link rel="stylesheet" type="text/css" href="colorful.css">
  </head>
