@@ -11,7 +11,7 @@ include 'functions.php';
  <body>
    <?php
    $id = $_GET['id'];
-   $upplysingar = getImageInfo($conn, $id);
+   $upplysingar = getImageInfo($conn, $id); 
     ?>
   <h1><?php echo $upplysingar['myndaheiti']; ?></h1>
   <img src="myndir/<?php echo $upplysingar['skraarheiti']?>" width="200" height="200"> 
